@@ -4,6 +4,8 @@
   <h1>Rhenium-CLI</h1>
 </div>
 
-[![forthebadge](https://forthebadge.com/images/badges/winter-is-coming.svg)](https://forthebadge.com)
+[![Version](https://img.shields.io/badge/version-v1.0.0--alpha.0-brightgreen.svg?style=for-the-badge)](https://github.com/Kurzdor/rhenium-cli/)
+[![GitHub license](https://img.shields.io/github/license/Kurzdor/rhenium-cli.svg?style=for-the-badge)](https://github.com/Kurzdor/rhenium-cli)
+[![GitHub issues](https://img.shields.io/github/issues/Kurzdor/rhenium-cli.svg?style=for-the-badge)](https://github.com/Kurzdor/rhenium-cli/issues)
 
 <br />
