@@ -1,7 +1,7 @@
 {
   "name": "rhenium-cli",
   "version": "1.0.0-alpha.2",
-  "description": "Front-end boilerplate CLI generator",
+  "description": "Fully customizable project generator for easy start",
   "main": "index.js",
   "bin": {
     "rhenium": "./bin/rhenium.js"
