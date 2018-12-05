@@ -12,7 +12,7 @@ const isDevelopment = env === 'development';
 gulp.task('sass', function(cb) {
   return pump(
     [
-      gulp.src(realmrc.directories.src.sass, { allowEmpty: true }),
+      gulp.src(rheniumrc.directories.src.sass, { allowEmpty: true }),
       srcmaps.init(),
       sass({
         outputStyle: isDevelopment ? 'expanded' : 'compressed',
@@ -26,8 +26,8 @@ gulp.task('sass', function(cb) {
       srcmaps.write('.'),
       gulp.dest(
         isDevelopment
-          ? realmrc.directories.dev.css
-          : realmrc.directories.prod.css
+          ? rheniumrc.directories.dev.css
+          : rheniumrc.directories.prod.css
       ),
     ],
     cb

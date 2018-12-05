@@ -3,14 +3,14 @@
 const path = require('path');
 const gulp = require('gulp');
 const reqDir = require('require-dir');
-const realmrc = require('./config/requireRealmConfig');
+const rheniumrc = require('./config/requireRheniumConfig');
 const tasks = {};
 
 reqDir(path.resolve(__dirname, 'config/tasks/'), {
   recurse: true,
 });
 
-switch (realmrc.styles) {
+switch (rheniumrc.styles) {
   case 'sass':
     tasks.styles = 'sass';
     break;
@@ -32,7 +32,7 @@ switch (realmrc.styles) {
     break;
 }
 
-tasks.parallel = realmrc.server.init
+tasks.parallel = rheniumrc.server.init
   ? gulp.parallel('watch', 'server')
   : gulp.parallel('watch');
 
