@@ -9,3 +9,21 @@
 [![GitHub issues](https://img.shields.io/github/issues/Kurzdor/rhenium-cli.svg?style=for-the-badge)](https://github.com/Kurzdor/rhenium-cli/issues)
 
 <br />
+
+<h2>Installation</h2>
+
+Install package via npm globally
+
+```
+npm install --global rhenium-cli
+```
+
+<h2>Usage</h2>
+
+Run this command to start generator:
+
+```
+rhenium --help
+```
+
+Then follow the generator`s questions
