@@ -23,7 +23,7 @@ npm install --global rhenium-cli@next
 Run this command to start generator:
 
 ```
-rhenium --help
+rhenium
 ```
 
 Then follow the generator`s questions
