@@ -13,8 +13,16 @@
     "boilerplate",
     "generator"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurzdor/rhenium-cli.git"
+  },
   "author": "Kurzdor",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurzdor/rhenium-cli/issues"
+  },
+  "homepage": "https://github.com/kurzdor/rhenium-cli#readme",
   "dependencies": {
     "chalk": "^2.4.1",
     "clear": "^0.1.0",
