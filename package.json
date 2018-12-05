@@ -1,6 +1,6 @@
 {
   "name": "rhenium-cli",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0-alpha.0",
   "description": "Front-end boilerplate CLI generator",
   "main": "index.js",
   "bin": {
