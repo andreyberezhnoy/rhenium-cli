@@ -15,7 +15,7 @@
 Install package via npm globally
 
 ```
-npm install --global rhenium-cli
+npm install --global rhenium-cli@next
 ```
 
 <h2>Usage</h2>
