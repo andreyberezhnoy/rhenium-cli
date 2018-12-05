@@ -3,6 +3,7 @@
   <h1>Rhenium-CLI</h1>
   ![version][version-badge]
 </div>
+![version-badge]
 
 <br />
 
