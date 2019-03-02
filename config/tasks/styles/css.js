@@ -1,12 +1,12 @@
-const gulp = require('gulp');
-const pump = require('pump');
-const srcmaps = require('gulp-sourcemaps');
-const postcss = require('gulp-postcss');
-const autoprefixer = require('autoprefixer');
-const rheniumrc = require('../../requireRheniumConfig');
+const gulp = require('gulp')
+const pump = require('pump')
+const srcmaps = require('gulp-sourcemaps')
+const postcss = require('gulp-postcss')
+const autoprefixer = require('autoprefixer')
+const rheniumrc = require('../../requireRheniumConfig')
 
-const env = process.env.NODE_ENV;
-const isDevelopment = env === 'development';
+const env = process.env.NODE_ENV
+const isDevelopment = env === 'development'
 
 gulp.task('css', function(cb) {
   return pump(
@@ -26,5 +26,5 @@ gulp.task('css', function(cb) {
       ),
     ],
     cb
-  );
-});
+  )
+})
