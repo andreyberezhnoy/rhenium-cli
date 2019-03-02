@@ -18,6 +18,12 @@ Install package via npm globally
 npm install --global rhenium-cli@next
 ```
 
+or run via npx
+
+```
+npx rhenium-cli
+```
+
 <h2>Usage</h2>
 
 Run this command to start generator:
